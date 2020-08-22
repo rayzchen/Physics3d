@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
-import os, pytemplate
+import os, physics3d
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name = "pytemplate",
-    version = pytemplate.__version__,
+    name = "physics3d",
+    version = physics3d.__version__,
     author = "Ray Chen",
     author_email = "tankimarshal2@gmail.com",
-    description = "Template for a new Python project",
+    description = "3d phyics engine based on Pymunk",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github/rayzchen/pytemplate",
+    url = "https://github/rayzchen/physics3d",
     packages = find_packages(),
     classifiers = [
         "Programming Language :: Python :: 3.7",
